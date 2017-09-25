@@ -1,0 +1,30 @@
+package com.colobu.sccb.ch7
+
+object Solution12 extends App {
+  val s = "hello 世界"
+  println(s.charAt(6))
+  println(s.compareTo("Hello"))
+  println(s.compareToIgnoreCase("Hello"))
+  println(s.concat("!"))
+  println(s.contains("世界"))
+  println(s.endsWith("!"))
+  println(s.equalsIgnoreCase("HELLO 世界"))
+  println(s.getBytes())
+  println(s.getBytes("gb2312"))
+  println(s.indexOf("o"))
+  println(s.indexOf("o",2))
+  println(s.intern())
+  println(s.isEmpty)
+  println(s.lastIndexOf("o"))
+  println(s.lastIndexOf("o",10))
+  println(s.toLowerCase)
+  println(s.toUpperCase)
+  println(s.matches("^h.*"))
+  println(s.replace("世界", "world"))
+  println(s.replaceAll("l", "L"))
+  println(s.replaceFirst("l", "L"))
+  println(s.split("\\w+"))
+  println(s.substring(6))
+  println(s.substring(0,6))
+  println(s.trim)
+}
